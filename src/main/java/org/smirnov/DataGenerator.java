@@ -34,7 +34,6 @@ public class DataGenerator {
         sizeArr = parser.getSizeArr().clone();
         String cleanString;
         int resultArrSize;
-        if(numOfErrors > 60) numOfErrors = 60;
         for (int i = 0; i < numOfRecords; i++){
             genData();
             resultArrSize = resultArr.length;
